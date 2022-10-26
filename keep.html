@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Google Keep</title>
+	<link rel="stylesheet" type="text/css" href="sample2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar">
+		<span class="open-slide">
+			<a href="#" onclick="openSlideMenu()"
+			<a href="#">
+				<svg width="30" height="30" >
+					<path d="M0,5 30, 5" stroke = "grey"
+					stroke-width="5"/>
+					<path d= "M0, 14 30, 14" stroke="grey"
+					stroke-width="5"/>
+					<path d="M0, 23 30 ,23" stroke="grey"
+					stroke-width="5"/>
+				</svg>
+			</a>
+		</a>
+		</span>
+
+		<ul class="navbar-nav">
+			<div class="topbar">
+				<div class="box-1"><img class="logo" src="keepLogo.png"><span>  Keep</span></div>
+				<!--<div class ="box-2">
+				<form>
+					<img class="searchicon" src="searchicon.png"><input type="text" placeholder="Search" name="search">
+		   		</form>
+				</div>-->
+				
+			</div>
+		</ul>
+	</nav>
+
+
+	<div id="side-menu" class="side-nav">
+		<a href="#" class="btn-close"
+		onclick="closeSlideMenu()">&times;</a>
+		<a href="#"><img class="bulb" src="lightbulb-regular.svg"> Notes</a><br>
+		<a href="#"><img class="bell" src="bell-solid.svg">  Reminders</a><br>
+		<a href ="#"><img class="pen" src="pen-solid.svg"> Edit labels</a><br>
+		<a href="#"><img class="box" src="box-archive-solid.svg"> Archive</a><br>
+		<a href ="#"><img class="trash" src="trash-solid.svg"> Trash</a><br>
+		<i class="fa-solid fa-lightbulb"></i>
+
+	</div>
+    <button id="addBtn">
+	<i class="fas fa-plus"></i>
+	Add Note
+    </button>
+	<div id="main"></div>
+	<script src="https://kit.fontawesome.com/bf520e6492.js" crossorigin="anonymous"></script>
+	 <script src="sample.js"></script>
+</body>
+</html>
