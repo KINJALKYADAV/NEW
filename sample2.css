@@ -1,6 +1,6 @@
 
 .navbar{
-	background-color: rgb(231, 236, 230);
+	background-color: #2f3737;
 	overflow: hidden;
 	height: 63px;
 }
@@ -31,8 +31,9 @@
 	opacity: 0.9;
 	overflow-x: hidden;
 	text-decoration: none;
-	text-decoration-color: black;
+	
 	padding-top: 60px;
+	
 	transition: 0.5s;
 }
 .side-nav{
@@ -54,12 +55,7 @@
 	margin-left: 50px;
 
 }
-#main{
-	transition: margin-left 0.5s;
-	padding: 20px;
-	overflow: hidden;
-	width: 100%;
-}
+
 @media(max-width: 568px){
 	.navbar-nav{display: none}
 }
@@ -67,7 +63,7 @@
 	.open-slide{display.none}
 }
 .bulb{
-	width: 15px;
+	width: 15px ;
 }
 .bell{
 	width: 15px;
@@ -88,6 +84,7 @@ span{
 	text-align: center;
 	font-size: 35px;
 	padding-bottom: 10px;
+	color: #ffffff;
 }
 .topbar{
 	display:flex;
@@ -115,7 +112,7 @@ body{
     width: 100%;
     min-height: 100vh;
     padding-bottom: 50px;
-    background-color: #e4eded;
+    background-color: #e2e2e2;
     display: flex;
     flex-wrap: wrap;
 }
@@ -136,14 +133,15 @@ body{
     width: 200px;
     height: 200px;
     background-color: rgb(8, 2, 2);
+	
     margin: 15px;
     margin-top: 55px;
 }
 
 .tool {
     width: 210px;
-    background-color: #2d3436;
-    color: white;
+    background-color: #363f42;
+    color: rgb(239, 229, 229);
     padding: 5px;
     display: flex;
     justify-content: end;

@@ -19,6 +19,7 @@ const saveNotes = () => {
         localStorage.removeItem("notes")
     } else {
         localStorage.setItem("notes", JSON.stringify(data))
+        console.log(data);
     }
 }
 const addNote = (text = "") => {
